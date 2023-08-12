@@ -12,7 +12,6 @@ function createWindow () {
     }
   }
   const win = new BrowserWindow(options);
-  // win.loadFile('src/index.html');
   win.maximize();
 }
 
