@@ -1,0 +1,20 @@
+{
+  "name": "screenguard",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "tsc",
+    "start": "tsc && electron ."
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^20.4.10",
+    "typescript": "^5.1.6"
+  },
+  "dependencies": {
+    "electron": "^25.5.0"
+  }
+}
